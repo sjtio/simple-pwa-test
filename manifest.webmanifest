@@ -1,0 +1,22 @@
+{
+  "name": "PWA Test",
+  "short_name": "PWA Test",
+  "description": "Progressive Web App Test",
+  "scope": "/pwa-test/",
+  "start_url": "/pwa-test/",
+  "background_color": "#fdfdfd",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+      {
+        "src": "/pwa-test/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/pwa-test/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+  ]
+}

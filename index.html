@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub page as PWA template</title>
+  <link rel="canonical" href="https://sjtio.github.io/pwa-test/" />
+  <link rel="manifest" href="/pwa-test/manifest.webmanifest">
+</head>
+<body>
+  <h1>GitHub page as PWA template</h1>
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/pwa-test/sw.js',
+          {scope: '/pwa-test/'}
+        )
+      }
+  </script>
+</body>
+</html>
