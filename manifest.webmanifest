@@ -1,22 +1,38 @@
 {
-  "name": "PWA Test",
-  "short_name": "PWA Test",
-  "description": "Progressive Web App Test",
+  "name": "James Handbook",
+  "short_name": "James Book",
+  "description": "Handbook for Narrowboat James",
   "scope": "/simple-pwa-test/",
   "start_url": "/simple-pwa-test/",
-  "background_color": "#fdfdfd",
-  "theme_color": "#ffffff",
+  "background_color": "#fcf7f8",
+  "theme_color": "#4e8098",
   "display": "standalone",
   "icons": [
       {
-        "src": "/simple-pwa-test/icon-512.png",
+        "src": "/simple-pwa-test/icons/monochrome-512.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "512x512",
+        "purpose": "any monochrome"
+
       },
       {
-        "src": "/simple-pwa-test/icon-192.png",
+        "src": "/simple-pwa-test/icons/monochrome-192.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "192x192",
+        "purpose": "any monochrome"
+      },
+      {
+        "src": "/simple-pwa-test/icons/maskable-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+
+      },
+      {
+        "src": "/simple-pwa-test/icons/maskable-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
       }
   ]
 }
